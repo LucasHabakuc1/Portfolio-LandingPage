@@ -1,0 +1,26 @@
+:root {
+    --cores-dancantes: rgb(248, 135, 6), rgb(251, 255, 0), rgb(253, 0, 0),
+        rgb(48, 48, 77);
+    ;
+
+}
+
+@keyframes coresDancantes {
+    100% {
+        filter: hue-rotate(36deg);
+    }
+}
+
+@keyframes gradient-animation {
+	0% {
+		background-position: 0% 100%;
+	}
+
+	50% {
+		background-position: 100% 50%;
+	}
+
+	100% {
+		background-position: 0% 50%;
+	}
+}
